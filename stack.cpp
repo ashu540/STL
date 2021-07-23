@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+ LIFO-> last in first out
  stack<int>s;
 input ->1
 
@@ -31,7 +32,7 @@ output->
 
 
 input ->2
-
+LIFO-> last in first out
 stack<int>s;
 int n;
 cin>>n;
