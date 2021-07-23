@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-  /*//input 1
+  input 1
   vector<int> v{1,2,3,4,5};
 
-  //input 2
+  input 2
   vector<int> v;
 
   int n;
-  cin>>n; //n->size
+  cin>>n; n->size
 
   for(int i=0; i<n; i++)
   {
@@ -20,7 +20,7 @@ int main()
     v.push_back(x);
 
   }
-  //for print
+  for print
 
   //1
   for(auto it=v.begin() ;it!=v.end(); it++)
@@ -38,7 +38,7 @@ int main()
   {
    cout<<v[i]<<" ";
   }
-*/
+
 /***************************************************************/
 //OPERATIONS ON VECTORS
 
