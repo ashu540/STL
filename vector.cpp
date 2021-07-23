@@ -75,6 +75,11 @@ int main()
 
    if v.begin()+1 then insert will be after 0th element 
 
+     
+     
+     
+     
+     
  4. sorting
 
  -> sort(v.begin(),v.end())
@@ -92,6 +97,10 @@ int main()
       return a>b; ->descending
   }
  
+  
+  
+  
+  
  5. searching
 
  after sorting or before sorting 
@@ -103,6 +112,11 @@ binary_search(v.begin(),v.end(),value)
 note->it will not take iterator
 it will return bool value 
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+   
+   
+   
+   
+   
 6. upper_bound & lower_bound
 ->->->after sorting<-<-<- 
 note->these are returns iterators
@@ -127,6 +141,13 @@ vector<int> v{1,2,3,4,5,3,16,9,7,8,7};
       cout<<a4-v.begin()<<" "<<*a4<<endl;--->10 16
       cout<<a5-v.begin()<<" "<<*a5<<endl;--->11 0
 
+        
+        
+        
+        
+        
+        
+        
 7. others 
 
 // add of all vector elements 
