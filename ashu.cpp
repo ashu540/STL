@@ -88,7 +88,7 @@ for(int i=0; i<4; i++)
    dq.pop_back();
 
 }
-O->6 3 9 0
+O->0 9 3 6
 
 
 
@@ -98,7 +98,7 @@ for(int i=0; i<4; i++)
    cout<<dq.front()<<" ";
    dq.pop_front();
 }
-O->1 37 55 42
+O->42 55 37 1 
 
 input
 6 3 9 0
