@@ -48,17 +48,20 @@ string s="ashutosh";
    
 sort(s.begin(),s.end());
 
- 
+--->withot sort functon it will work only consiqutive character <---
 s.erase(unique(s.begin(),s.end()),s.end());
 cout<<s;
 
 output->->
 ahostu
-
-
-
-
-
+///
+ 
+ 
+input---->aaaasvhuefiuvefuvbedcedavjnekvnevevia
+ without sort
+output--->asvhuefiuvefuvbedcedavjnekvnevevia
+with sort
+output--->abcdefhijknsuv
 
 
 ##############################################################################################################################################################################################
