@@ -173,8 +173,14 @@ converet upper and lower->-> toppper(x) / tolower(x) where x is a character  it 
 
 ##############################################################################################################################################################################################
 
+https://leetcode.com/problems/construct-k-palindrome-strings/
 
-
+bool canConstruct(string s, int k) {
+        bitset<26> odd;
+        for (char& c : s)
+            odd.flip(c - 'a');
+        return odd.count() <= k && k <= s.length();
+    }
 
 
 
